@@ -1,4 +1,9 @@
-
+def my_hash
+  "#my_hash" do
+      expect(my_hash).to be_a(Hash)
+      expect(my_hash.keys.count).to_not eq(0)
+  end
+end
 
 
 def shipping_manifest
